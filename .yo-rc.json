@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "msa.app.first",
+      "nativeLanguage": "ko"
+    },
+    "jhipsterVersion": "6.0.1",
+    "applicationType": "microservice",
+    "baseName": "msaApp001",
+    "packageName": "msa.app.first",
+    "packageFolder": "msa/app/first",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MjQzNWEzZDRlZTMyMzI2NGZkZThmZjRlMGNmYWZlMWJmMmM3MzZlZjJjYmZhYmQyNThkZmZmZWMxODFiMzhkYjA2MjhhZDViYmFiOTUxN2FlOTQ4ZDA2NWIzMDk4YWYyNTVjNTczMDI1NThlNDE0OGUwNjczOWY5YjMyMGI0NjE=",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "ko",
+    "languages": [
+      "ko",
+      "en"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

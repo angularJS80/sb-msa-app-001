@@ -1,0 +1,16 @@
+{
+  "name": "msa-app-001",
+  "version": "0.0.0",
+  "description": "Description for msaApp001",
+  "private": true,
+  "license": "UNLICENSED",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "generator-jhipster": "6.0.1"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}
