@@ -55,6 +55,9 @@ spring:
       bindings:
         output:
           destination: topic-jhipster
+        messageChannel:
+          destination: greetings
+          content-type: application/json
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://localhost:3306/msaApp001?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
